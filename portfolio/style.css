@@ -1,0 +1,79 @@
+
+header {
+    font-family: 'Montserrat';
+    background-color:#ffc0cb;
+    background-size: cover;
+}
+
+body {
+    background-color:#ffc0cb;
+    font-family: 'Montserrat'
+}
+
+
+nav a:hover, nav a:focus, .current {
+    text-decoration: underline;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ffc0cb;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .container img{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-row-gap: 20x;
+    width: auto;
+    max-height: 500px;
+    max-width: 300px;
+  }
+
+  .container video{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20x;
+    width: auto;
+    max-height: 500px;
+    max-width: 300px;
+  }
+
+  div {
+    grid-column: 1 / span 3;
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+  }
+
+.flexcontain {
+    display: flex;
+}
+
+  .graphic img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .celebrate img{
+    display: flex;
+    max-width: 300px;
+  }
